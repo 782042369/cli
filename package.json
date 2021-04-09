@@ -35,7 +35,6 @@
     "modernizr": "^3.11.6",
     "node-sass": "^5.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
-    "popper.js": "^1.16.1",
     "postcss": "^8.2.9",
     "postcss-loader": "^5.2.0",
     "postcss-preset-env": "^6.7.0",
