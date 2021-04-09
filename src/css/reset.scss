@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+img {
+  width: 140px;
+  display: block;
+  object-fit: contain;
+}
+div {
+  width: 100px;
+  height: 100px;
+  // background-color: red;
+  // animation-name: example;
+  // animation-duration: 4s;
+  background: url('../img/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
