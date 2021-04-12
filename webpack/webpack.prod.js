@@ -2,7 +2,7 @@
  * @Author: 杨宏旋
  * @Date: 2021-04-09 09:54:07
  * @LastEditors: 杨宏旋
- * @LastEditTime: 2021-04-09 14:48:24
+ * @LastEditTime: 2021-04-12 16:27:42
  * @Description:
  */
 const { merge } = require('webpack-merge')
@@ -18,10 +18,6 @@ module.exports = merge(base, {
   mode: 'production',
   plugins: [
     new OptimizeCssAssetsWebpackPlugin(),
-    new MiniCssExtractPlugin({
-      filename: 'css/[name].[contenthash:8].css',
-      ignoreOrder: false,
-    }),
     new CleanWebpackPlugin(),
     new TerserPlugin({
       parallel: 4, // 是否并行打包,多线程

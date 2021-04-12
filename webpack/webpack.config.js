@@ -2,7 +2,7 @@
  * @Author: 杨宏旋
  * @Date: 2021-04-09 09:48:44
  * @LastEditors: 杨宏旋
- * @LastEditTime: 2021-04-09 14:44:36
+ * @LastEditTime: 2021-04-12 16:38:51
  * @Description:
  */
 
@@ -96,7 +96,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [...setHtmlPlugin()],
+  plugins: [...setHtmlPlugin(), new MiniCssExtractPlugin()],
   externals: {
     $: 'jquery',
     jQuery: 'jquery',
